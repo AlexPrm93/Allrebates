@@ -1,0 +1,76 @@
+@charset "utf-8";
+/* CSS Document */ 
+
+a {text-decoration:none;
+-webkit-transition:  all 0.3s ease 0s ;
+-moz-transition:  all 0.3s ease 0s ;
+-o-transition:  all 0.3s ease 0s;
+-ms-transition: all 0.3s ease 0s;
+transition: all 0.3s ease 0s;}  
+h1, h2, h3, h4, h5, h6{font-weight:normal;}
+
+img{border:none;}
+textarea{resize: none;resize:none;
+    outline:none; 
+    border:none;
+    overflow:auto;
+    -webkit-appearance:none;
+    background: none;
+    -webkit-border-radius:0;
+    -moz-border-radius:0;
+    border-radius:0;}
+textarea:hover{cursor:text;}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button{
+    -webkit-appearance:none;
+}
+input,textarea{outline:none;-webkit-appearance: none;
+outline:none;
+    border:none;
+    -webkit-appearance:none;
+    background: none;
+    -webkit-border-radius:0;
+    -moz-border-radius:0;
+    border-radius:0;}
+a,button,textarea{outline: none;cursor:pointer;}
+ul li{list-style:none;}
+button{background:none;border:none;
+-webkit-transition:  all 0.3s ease 0s;
+-moz-transition: all 0.3s ease 0s ;
+-o-transition:  all 0.3s ease 0s
+-ms-transition: all 0.3s ease 0s;
+transition: all 0.3s ease 0s;	}
+input[type="submit"]{-webkit-transition:  all 0.3s ease 0s;
+-moz-transition: all 0.3s ease 0s;
+-o-transition: all 0.3s ease 0s;
+-ms-transition: all 0.3s ease 0s;
+transition: all 0.3s ease 0s;}
+input[type="submit"]:hover{cursor:pointer;}
+input[type="submit"]{-webkit-appearance: none;}
+input[type="search"]::-webkit-search-cancel-button {background:none;display:none;}
+input[type="text"]::-webkit-text-cancel-button {background:none;display:none;}
+input[type="tel"]::-webkit-text-cancel-button {background:none;display:none;}
+input::-ms-clear {
+   display: none;
+}
+:focus {
+    outline: none;
+}
+.clearfix{clear:both;width:100%;display:table;vertical-align:top;}
+* {
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+-o-box-sizing: border-box;
+-ms-box-sizing: border-box;
+box-sizing: border-box;
+margin:0;
+padding:0;
+}
+*:after, *:before {
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+-o-box-sizing: border-box;
+-ms-box-sizing: border-box;
+    box-sizing: border-box;}
+.clear:after{content: '';clear: both;display: table;}

@@ -1,0 +1,60 @@
+@charset "utf-8";
+/* CSS Document */ 
+ 
+
+@font-face {
+    font-family: 'neosans';
+    src: url('../fonts/NeoSansCyr-Bold.eot');
+    src: url('../fonts/NeoSansCyr-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/NeoSansCyr-Bold.woff2') format('woff2'),
+        url('../fonts/NeoSansCyr-Bold.woff') format('woff'),
+        url('../fonts/NeoSansCyr-Bold.svg#NeoSansCyr-Bold') format('svg');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'neosans';
+    src: url('../fonts/NeoSansCyr-Light.eot');
+    src: url('../fonts/NeoSansCyr-Light.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/NeoSansCyr-Light.woff2') format('woff2'),
+        url('../fonts/NeoSansCyr-Light.woff') format('woff'),
+        url('../fonts/NeoSansCyr-Light.svg#NeoSansCyr-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'neosans';
+    src: url('../fonts/NeoSansCyr-Medium.eot');
+    src: url('../fonts/NeoSansCyr-Medium.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/NeoSansCyr-Medium.woff2') format('woff2'),
+        url('../fonts/NeoSansCyr-Medium.woff') format('woff'),
+        url('../fonts/NeoSansCyr-Medium.svg#NeoSansCyr-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'neosans';
+    src: url('../fonts/NeoSansCyr-Regular.eot');
+    src: url('../fonts/NeoSansCyr-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/NeoSansCyr-Regular.woff2') format('woff2'),
+        url('../fonts/NeoSansCyr-Regular.woff') format('woff'),
+        url('../fonts/NeoSansCyr-Regular.svg#NeoSansCyr-Regular') format('svg');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'neosans';
+    src: url('../fonts/NeoSansPro-Ultra.eot');
+    src: url('../fonts/NeoSansPro-Ultra.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/NeoSansPro-Ultra.woff2') format('woff2'),
+        url('../fonts/NeoSansPro-Ultra.woff') format('woff'),
+        url('../fonts/NeoSansPro-Ultra.svg#NeoSansPro-Ultra') format('svg');
+    font-weight: 900;
+    font-style: normal;
+}
+
+

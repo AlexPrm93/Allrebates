@@ -1,0 +1,731 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="format-detection" content="telephone=no">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Личный кабинет</title> 
+ 
+<link rel="stylesheet" href="css/fonts.css">
+<link rel="stylesheet" href="css/datepicker.min.css">
+<link rel="stylesheet" href="css/mTab-style.css">
+<link rel="stylesheet" href="css/font-awesome.min.css">
+<link rel="stylesheet" href="css/jquery.fancybox.css">
+<link rel="stylesheet" href="css/jquery.formstyler.css">
+<link rel="stylesheet" href="css/jquery.formstyler.theme.css">
+<link rel="stylesheet" href="css/swiper.css">
+<link rel="stylesheet" href="css/reset.css">
+<link rel="stylesheet" href="css/style.css">
+<script src="libs/jquery.min.js"></script>
+
+</head>
+
+<body>
+<div class="wrap_modal">
+    <div class="modal_ic" id="option_open">
+       <div class="wr_modal_ic">
+        <div class="h_line_item">
+             <div class="lh_line_item">
+                  <h4>Подключенные счета</h4>
+             </div>
+        </div> 
+        <div class="wrap_form_green">
+            <p>Вы можете поменять основные данные своего профиля, а так-же сменить свой пароль</p>
+            <form>
+    	                    <div class="form_item_line form_item_line_join">
+    	                        <div class="form_item_in">
+                                   <p>Ваше полное имя</p>
+    	                            <div class="f_item_in user">
+                                       <span class="ut_item"><img src="img/icons/lk/user.svg" alt=""></span>
+    	                                <input type="text" class="input_lk_item" placeholder="">
+    	                            </div>
+    	                        </div>
+    	                        <div class="change_icon">
+    	                            <span class="ch_icon_img"><img src="img/lk/group.jpg" alt=""></span>
+    	                            <div class="ch_icon_txt">
+    	                                <p>Фотография профиля</p>
+    	                                <a href="#" class="download_photo">Сменить фотографию</a>
+    	                            </div>
+    	                        </div>
+    	                        <p class="title_smena">Сменить пароль</p>
+    	                        <div class="form_item_in">
+    	                            <p>Ваш текущий пароль</p>
+    	                            <div class="f_item_in pass">
+                                       <span class="ut_item"><img src="img/icons/lk/key.svg" alt=""></span>
+    	                                <input type="password" class="input_lk_item" placeholder="">
+    	                            </div>
+    	                        </div>
+    	                        <div class="form_item_in">
+    	                            <p>Новый пароль</p>
+    	                            <div class="f_item_in pass">
+                                       <span class="ut_item"><img src="img/icons/lk/key.svg" alt=""></span>
+    	                                <input type="password" class="input_lk_item" placeholder="">
+    	                            </div>
+    	                        </div>
+    	                        <div class="form_item_in">
+    	                            <p>Повторите пароль</p>
+    	                            <div class="f_item_in pass">
+                                       <span class="ut_item"><img src="img/icons/lk/key.svg" alt=""></span>
+    	                                <input type="password" class="input_lk_item" placeholder="">
+    	                            </div>
+    	                        </div>
+    	                    </div>
+    	                    
+    	                    
+    	                    <div class="form_item_line line_bott">
+    	                        <div class="form_item_in long">
+                                  <button class="reg_but">Сохранить настройки</button>
+    	                        </div>
+    	                        
+    	                    </div>
+    	                    
+    	                </form>
+        </div>  
+        </div>  
+    </div>
+</div>
+<div class="wrap_modal">
+    <div class="modal_ic" id="option_open2">
+       <div class="wr_modal_ic">
+        <div class="h_line_item">
+             <div class="lh_line_item">
+                  <h4>Подключенные счета</h4>
+             </div>
+        </div> 
+        <div class="wrap_form_green">
+            <p>Вы можете поменять основные данные своего профиля, а так-же сменить свой пароль</p>
+            <form>
+    	                    <div class="form_item_line form_item_line_join">
+    	                        <div class="form_item_in">
+                                   <p>Ваше полное имя</p>
+    	                            <div class="f_item_in user">
+                                       <span class="ut_item"><img src="img/icons/lk/user.svg" alt=""></span>
+    	                                <input type="text" class="input_lk_item" placeholder="">
+    	                            </div>
+    	                        </div>
+    	                        <div class="change_icon">
+    	                            <span class="ch_icon_img"><img src="img/lk/group.jpg" alt=""></span>
+    	                            <div class="ch_icon_txt">
+    	                                <p>Фотография профиля</p>
+    	                                <a href="#" class="download_photo">Сменить фотографию</a>
+    	                            </div>
+    	                        </div>
+    	                        <p class="title_smena">Сменить пароль</p>
+    	                        <div class="form_item_in">
+    	                            <p>Ваш текущий пароль</p>
+    	                            <div class="f_item_in pass">
+                                       <span class="ut_item"><img src="img/icons/lk/key.svg" alt=""></span>
+    	                                <input type="password" class="input_lk_item" placeholder="">
+    	                            </div>
+    	                        </div>
+    	                        <div class="form_item_in">
+    	                            <p>Новый пароль</p>
+    	                            <div class="f_item_in pass">
+                                       <span class="ut_item"><img src="img/icons/lk/key.svg" alt=""></span>
+    	                                <input type="password" class="input_lk_item" placeholder="">
+    	                            </div>
+    	                        </div>
+    	                        <div class="form_item_in">
+    	                            <p>Повторите пароль</p>
+    	                            <div class="f_item_in pass">
+                                       <span class="ut_item"><img src="img/icons/lk/key.svg" alt=""></span>
+    	                                <input type="password" class="input_lk_item" placeholder="">
+    	                            </div>
+    	                        </div>
+    	                    </div>
+    	                    <p class="notate">На ваш телефон отправлено СМС-подтверждение.<br> Введите код из смс в поле ниже:</p>
+    	                    <div class="form_item_in">
+    	                        <div class="wr_accept_code">
+    	                                <div class="f_item_in accept">
+                                           <span class="ut_item"><img src="img/icons/lk/comments.svg" alt=""></span>
+                                            <input type="text" class="input_lk_item" placeholder="">
+                                        </div>
+                                        <a href="#" class="repeat_code">Отправить повторно</a>
+    	                            </div>
+    	                    </div>
+    	                    <div class="form_item_line line_bott">
+    	                        <div class="form_item_in long">
+                                  <button class="reg_but disabled">Сохранить </button>
+    	                        </div>
+    	                        
+    	                    </div>
+    	                    
+    	                </form>
+        </div>  
+        </div>  
+    </div>
+</div>
+<div class="wrap_modal">
+    <div class="modal_ic" id="option_open3">
+       <div class="wr_modal_ic">
+        <div class="h_line_item">
+             <div class="lh_line_item">
+                  <h4>Подключенные счета</h4>
+             </div>
+        </div> 
+        <div class="wrap_form_green">
+            <p>Вы можете поменять основные данные своего профиля, а так-же сменить свой пароль</p>
+            <form>
+    	                    <div class="form_item_line form_item_line_join">
+    	                        <div class="form_item_in">
+                                   <p>Ваше полное имя</p>
+    	                            <div class="f_item_in user">
+                                       <span class="ut_item"><img src="img/icons/lk/user.svg" alt=""></span>
+    	                                <input type="text" class="input_lk_item" placeholder="">
+    	                            </div>
+    	                        </div>
+    	                        <div class="change_icon">
+    	                            <span class="ch_icon_img"><img src="img/lk/group.jpg" alt=""></span>
+    	                            <div class="ch_icon_txt">
+    	                                <p>Фотография профиля</p>
+    	                                <a href="#" class="download_photo">Сменить фотографию</a>
+    	                            </div>
+    	                        </div>
+    	                        <p class="title_smena">Сменить пароль</p>
+    	                        <div class="form_item_in">
+    	                            <p>Ваш текущий пароль</p>
+    	                            <div class="f_item_in pass">
+                                       <span class="ut_item"><img src="img/icons/lk/key.svg" alt=""></span>
+    	                                <input type="password" class="input_lk_item" placeholder="">
+    	                            </div>
+    	                        </div>
+    	                        <div class="form_item_in">
+    	                            <p>Новый пароль</p>
+    	                            <div class="f_item_in pass">
+                                       <span class="ut_item"><img src="img/icons/lk/key.svg" alt=""></span>
+    	                                <input type="password" class="input_lk_item" placeholder="">
+    	                            </div>
+    	                        </div>
+    	                        <div class="form_item_in">
+    	                            <p>Повторите пароль</p>
+    	                            <div class="f_item_in pass">
+                                       <span class="ut_item"><img src="img/icons/lk/key.svg" alt=""></span>
+    	                                <input type="password" class="input_lk_item" placeholder="">
+    	                            </div>
+    	                        </div>
+    	                    </div>
+    	                    <p class="notate">На ваш телефон отправлено СМС-подтверждение.<br> Введите код из смс в поле ниже:</p>
+    	                    <div class="form_item_in">
+    	                        <div class="wr_accept_code">
+    	                                <div class="f_item_in accept">
+                                           <span class="ut_item"><img src="img/icons/lk/comments.svg" alt=""></span>
+                                            <input type="text" class="input_lk_item" placeholder="">
+                                        </div>
+                                        <a href="#" class="repeat_code">Отправить повторно</a>
+    	                            </div>
+    	                    </div>
+    	                    <div class="form_item_line line_bott">
+    	                        <div class="form_item_in long">
+                                  <button class="reg_but ">Сохранить </button>
+    	                        </div>
+    	                        
+    	                    </div>
+    	                    
+    	                </form>
+        </div>  
+        </div>  
+    </div>
+</div>
+<div class="wrap_modal">
+    <div class="modal_ic" id="vivod">
+       <div class="wr_modal_ic">
+        <div class="h_line_item">
+             <div class="lh_line_item">
+                  <h4>Выыод баланса</h4>
+             </div>
+        </div> 
+        <div class="wrap_form_green">
+            <p>Введите сумму и способ вывода</p>
+            <div class="much_all">
+                <p>Ваш текущий баланс <span>$3 948</span></p>
+            </div>
+            <form>
+    	                    <div class="form_item_line form_item_line_join">
+    	                        <div class="form_item_in">
+                                   <p>Сумма для вывода</p>
+    	                            <div class="f_item_in summ">
+                                       <span class="ut_item"><img src="img/icons/lk/dollar-sign.svg" alt=""></span>
+    	                                <input type="tel" class="input_lk_item" placeholder="">
+    	                            </div>
+    	                        </div>
+    	                        
+    	                        
+    	                        <div class="form_item_in">
+    	                            <p>Способ вывода</p>
+    	                            <div class="delivery_block">
+                                         <div class="delivery_list"><div class="btn"> </div><span class="change_payment"><img src="img/icons/lk/yandex.svg" alt=""> <span>Yandex.Money</span></span></div>
+
+                                        <ul class="cities_list">
+                                            <li><img src="img/icons/lk/yandex.svg" alt=""> <span>Yandex.Money</span></li>
+                                            <li><img src="img/icons/lk/yandex.svg" alt=""> <span>Yandex.Money</span></li>
+                                            <li><img src="img/icons/lk/yandex.svg" alt=""> <span>Yandex.Money</span></li>
+                                            <li><img src="img/icons/lk/yandex.svg" alt=""> <span>Yandex.Money</span></li>
+                                        </ul>
+
+                                    </div>
+    	                        </div>
+    	                        <div class="form_item_in">
+    	                            <p>Введите номер кошелька</p>
+    	                            <div class="f_item_in nubmer_payment">
+                                       <span class="ut_item"><img src="img/icons/lk/suitcase.svg" alt=""></span>
+    	                                <input type="tel" class="input_lk_item" placeholder="">
+    	                            </div>
+    	                        </div>
+    	                    </div>
+    	                    
+    	                    
+    	                    <div class="form_item_line line_bott">
+    	                        <div class="form_item_in long">
+                                  <button class="reg_but">Отправить заявку на вывод</button>
+    	                        </div>
+    	                        
+    	                    </div>
+    	                    
+    	                </form>
+        </div>  
+        </div>  
+    </div>
+</div>
+<div class="wrap_modal">
+    <div class="modal_ic" id="ty_gratz">
+       <div class="wr_modal_ic">
+        <div class="h_line_item">
+             <div class="lh_line_item">
+                  <h4>Выыод баланса</h4>
+             </div>
+        </div> 
+        <div class="wrap_form_green">
+           <div class="wrap_ty_gratz">
+               <img src="img/icons/lk/check-circle.png" alt="">
+               <h4>Поздравляем</h4>
+               <p>Заявка на вывод средств успешно подана, вы можете отслеживать состояние заявки в блоке «Заявки на рассмотрении» в личном кабинете.</p>
+           </div>
+            <div class="form_item_line line_bott">
+    	         <div class="form_item_in long">
+                      <button class="reg_but">Вернуться на сайт</button>
+    	         </div>             
+    	    </div>
+        </div>  
+        </div>  
+    </div>
+</div>                                                          
+    <div class="wrapper">
+    	
+    	<div class="closed_menu"></div>
+    	<header class="header" id="top">
+        	<div class="wrap_header">
+        	    
+        	    <div class="left_header">
+                   <button class="pull"><i class="fa fa-navicon"></i></button>
+        	        <div class="language">
+                        <p>Ru</p>
+                        <span class="lang_img"><img src="img/icons/ru.png" alt=""></span>
+                    </div>
+                    <div class="logo">
+                        <a href="#"><img src="img/icons/logo_st.png" alt=""></a>
+                    </div>
+                    <div class="wrap_menu">
+                        <button class="close"><i class="fa fa-close"></i></button>
+                        <ul>
+                            <li><a href="#" class="active">Главная</a></li>
+                            <li><a href="#">Список компаний</a></li>
+                            <li><a href="#">Как это работает?</a></li>
+                            <li><a href="#">О сервисе</a></li>
+                            <li><a href="#">Партнерам</a></li>
+                            <li><a href="#">Контакты</a></li>
+                        </ul>
+                    </div>
+        	    </div>
+        	    <div class="right_header">
+        	        <div class="rh_item ">
+        	            <a href="#" class="call">
+        	                <img src="img/icons/headset.png" alt="">
+        	                <span>Связаться с нами</span>
+        	            </a>
+        	        </div>
+        	        <div class="rh_item">
+        	            <a href="#" class="join">
+        	                <img src="img/icons/join.png" alt="">
+        	                <span>Войти</span>
+        	            </a>
+        	        </div>
+        	    </div>
+        	</div>
+        </header>
+        <div class="block_lk">
+            <div class="container">
+               <h2>Личный кабинет</h2>
+                <div class="wrap_block_lk">
+                    <div class="block_lk_line block_lk_line_head">
+                        <div class="lk_left">
+                            <div class="head_lk form_green">
+                                <div class="wrap_head_lk">
+                                    <div class="l_head_lk">
+                                        <div class="head_lk_img">
+                                            <img src="img/lk/group.jpg" alt="">
+                                        </div>
+                                        <div class="head_lk_txt">
+                                            <div class="wr_h_lk_txt">
+                                                <h4><span>Ананьев Матвей Сергеевич</span> <img src="img/lk/power-off.svg" alt=""></h4>
+                                                <a data-src="#option_open" class="options open_fancy">Настройки</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="r_head_lk">
+                                        <p>$3 948</p>
+                                        <a data-src="#vivod" class="reg_but open_fancy">Вывести</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="lk_right">
+                            <div class="support">
+                                <h4>Поддержка</h4>
+                                <a href="#" class="skype">live:help_2197</a>
+                                <a href="#" class="telegramm">live:help_2197</a>
+                                <a href="mailto:help@cloud-mining.io" class="mail_sup">help@cloud-mining.io</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="block_lk_line">
+                        <div class="lk_left">
+                            <div class="block_line_item">
+                                <div class="h_line_item">
+                                    <div class="lh_line_item">
+                                        <h4>Подключенные счета</h4>
+                                    </div>
+                                    <div class="rh_line_item">
+                                       <div class="l_rh_line_item">
+                                           
+                                       
+                                        <p>Доходность счетов с</p>
+                                        <div class="cal_item">
+                                            <input type='text' class="datepicker-here" />
+                                        </div>
+                                        <p>до</p>
+                                        <div class="cal_item">
+                                            <input type='text' class="datepicker-here" />
+                                        </div>
+                                        </div>
+                                        <a href="#" class="add_ticket">
+                                            <span>Добавить счет</span>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="wrap_body_line_item">
+                                    <div class="body_line_item">
+                                        <div class="ticket_on_left">
+                                            <div class="ticket_labe">
+                                                <img src="img/lk/freshforex.svg" alt="">
+                                            </div>
+                                            <div class="ticket_labe_txt">
+                                                <p class="name">Standard <a href="#" class="delete"></a></p>
+                                                <p class="article">#43456</p>
+                                            </div>
+                                        </div>
+                                        <div class="ticket_on_right">
+                                            <p><span class="how">30 лотов</span> <span class="much">$300</span></p>
+                                        </div>
+                                    </div>
+                                    <div class="body_line_item">
+                                        <div class="ticket_on_left">
+                                            <div class="ticket_labe">
+                                                <img src="img/lk/weltrade.svg" alt="">
+                                            </div>
+                                            <div class="ticket_labe_txt">
+                                                <p class="name">Pro <a href="#" class="delete"></a></p>
+                                                <p class="article">#43456</p>
+                                            </div>
+                                        </div>
+                                        <div class="ticket_on_right">
+                                            <p><span class="how">30 лотов</span> <span class="much">$100</span></p>
+                                        </div>
+                                    </div>
+                                    <div class="body_line_item">
+                                        <div class="ticket_on_left">
+                                            <div class="ticket_labe">
+                                                <img src="img/lk/fibo.svg" alt="">
+                                            </div>
+                                            <div class="ticket_labe_txt">
+                                                <p class="name">Standard <a href="#" class="delete"></a></p>
+                                                <p class="article">#43456</p>
+                                            </div>
+                                        </div>
+                                        <div class="ticket_on_right">
+                                            <p><span class="how">30 лотов</span> <span class="much">$300</span></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="block_line_item">
+                                <div class="h_line_item">
+                                    <div class="lh_line_item">
+                                        <h4>Заявки на рассмотрении</h4>
+                                    </div>
+                                    
+                                </div>
+                                <div class="wrap_body_line_item">
+                                        <div class="body_line_item2">
+                                            <div class="l_item2_left">
+                                                <p><span class="date">22.12.2020</span> <span class="name_date">Вывод на яндекс-деньги</span></p>
+                                            </div>
+                                            <div class="r_item2_right">
+                                                <p class="much">$ 756</p>
+                                                <p class="status">На рассмотрении</p>
+                                                <a href="#" class="refresh"><img src="img/lk/redo.svg" alt=""></a>
+                                            </div>
+                                        </div>
+                                        <div class="body_line_item2">
+                                            <div class="l_item2_left">
+                                                <p><span class="date">22.12.2020</span> <span class="name_date">Подключение нового счета в компании финам</span></p>
+                                            </div>
+                                            <div class="r_item2_right">
+                                                <p class="status">На рассмотрении</p>
+                                            </div>
+                                        </div>
+                                        <div class="body_line_item2">
+                                            <div class="l_item2_left">
+                                                <p><span class="date">22.12.2020</span> <span class="name_date">Перенос счета от компании финам</span></p>
+                                            </div>
+                                            <div class="r_item2_right">
+                                                <p class="steps not_done">Выполнено шагов: 1 из 2</p>
+                                                <a href="#" class="perenos">Продолжить перенос</a>
+                                            </div>
+                                        </div>
+                                        <div class="body_line_item2">
+                                            <div class="l_item2_left">
+                                                <p><span class="date">22.12.2020</span> <span class="name_date">Подключение нового счета в компании финам</span></p>
+                                            </div>
+                                            <div class="r_item2_right">
+                                                <p class="status error">Ошибка</p>
+                                            </div>
+                                        </div>
+                                        <div class="body_line_item2">
+                                            <div class="l_item2_left">
+                                                <p><span class="date">22.12.2020</span> <span class="name_date">Перенос счета от компании финам</span></p>
+                                                
+                                            </div>
+                                            <div class="r_item2_right">
+                                                <p class="steps ">Выполнено шагов: 2 из 2</p>
+                                                <p class="status ">На рассмотрении</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                            </div>
+                            <div class="block_line_item">
+                                <div class="h_line_item">
+                                    <div class="lh_line_item">
+                                        <h4>История операций</h4>
+                                    </div>
+                                    <div class="rh_line_item">
+                                       <div class="l_rh_line_item">
+                                        <p>Показать историю с</p>
+                                        <div class="cal_item">
+                                            <input type='text' class="datepicker-here" />
+                                        </div>
+                                        <p>до</p>
+                                        <div class="cal_item">
+                                            <input type='text' class="datepicker-here" />
+                                        </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="wrap_body_line_item">
+                                        <div class="body_line_item2">
+                                            <div class="l_item2_left">
+                                                <p><span class="date">22.12.2020</span> <span class="name_date">Вывод на яндекс-деньги</span></p>
+                                            </div>
+                                            <div class="r_item2_right">
+                                                <p class="much">$ 756</p>
+                                                <p class="status done">Успешно</p>
+                                                
+                                            </div>
+                                        </div>
+                                        <div class="body_line_item2">
+                                            <div class="l_item2_left">
+                                                <p><span class="date">22.12.2020</span> <span class="name_date">Вывод на Webmoney</span></p>
+                                            </div>
+                                            <div class="r_item2_right">
+                                                <p class="much">$ 756</p>
+                                                <p class="status error">Ошибка</p>
+                                                
+                                            </div>
+                                        </div>
+                                        <div class="body_line_item2">
+                                            <div class="l_item2_left">
+                                                <p><span class="date">22.12.2020</span> <span class="name_date">Зачисление с карты</span></p>
+                                            </div>
+                                            <div class="r_item2_right">
+                                                <p class="much">$ 756</p>
+                                                <p class="status done">Успешно</p>
+                                                
+                                            </div>
+                                        </div>
+                                        <div class="body_line_item2">
+                                            <div class="l_item2_left">
+                                                <p><span class="date">22.12.2020</span> <span class="name_date">Вывод на яндекс-деньги</span></p>
+                                            </div>
+                                            <div class="r_item2_right">
+                                                <p class="much">$ 756</p>
+                                                <p class="status done">Успешно</p>
+                                                
+                                            </div>
+                                        </div>
+                                        <div class="body_line_item2">
+                                            <div class="l_item2_left">
+                                                <p><span class="date">22.12.2020</span> <span class="name_date">Вывод на яндекс-деньги</span></p>
+                                            </div>
+                                            <div class="r_item2_right">
+                                                <p class="much">$ 756</p>
+                                                <p class="status done">Успешно</p>
+                                                
+                                            </div>
+                                        </div>
+                                        <div class="body_line_item2 hide">
+                                            <div class="l_item2_left">
+                                                <p><span class="date">22.12.2020</span> <span class="name_date">Вывод на яндекс-деньги</span></p>
+                                            </div>
+                                            <div class="r_item2_right">
+                                                <p class="much">$ 756</p>
+                                                <p class="status done">Успешно</p>
+                                                
+                                            </div>
+                                        </div>
+                                        <div class="body_line_item2 hide">
+                                            <div class="l_item2_left">
+                                                <p><span class="date">22.12.2020</span> <span class="name_date">Вывод на Webmoney</span></p>
+                                            </div>
+                                            <div class="r_item2_right">
+                                                <p class="much">$ 756</p>
+                                                <p class="status error">Ошибка</p>
+                                                
+                                            </div>
+                                        </div>
+                                        <div class="body_line_item2 hide">
+                                            <div class="l_item2_left">
+                                                <p><span class="date">22.12.2020</span> <span class="name_date">Зачисление с карты</span></p>
+                                            </div>
+                                            <div class="r_item2_right">
+                                                <p class="much">$ 756</p>
+                                                <p class="status done">Успешно</p>
+                                                
+                                            </div>
+                                        </div>
+                                        <div class="body_line_item2 hide">
+                                            <div class="l_item2_left">
+                                                <p><span class="date">22.12.2020</span> <span class="name_date">Вывод на яндекс-деньги</span></p>
+                                            </div>
+                                            <div class="r_item2_right">
+                                                <p class="much">$ 756</p>
+                                                <p class="status done">Успешно</p>
+                                                
+                                            </div>
+                                        </div>
+                                        <div class="body_line_item2 hide">
+                                            <div class="l_item2_left">
+                                                <p><span class="date">22.12.2020</span> <span class="name_date">Вывод на яндекс-деньги</span></p>
+                                            </div>
+                                            <div class="r_item2_right">
+                                                <p class="much">$ 756</p>
+                                                <p class="status done">Успешно</p>
+                                                
+                                            </div>
+                                        </div>
+                                        <div class="show_more_hist">
+                                            <a class="more_hist">Показать еще…</a>
+                                        </div>
+                                    </div>
+                            </div>
+                        </div>
+                        <div class="lk_right">
+                            <div class="block_news">
+                                <h4>Новости</h4>
+                                <div class="wr_bl_news">
+                                    <div class="bl_news_item">
+                                        <a href="#">Сен. 4, 2018</a>
+                                        <p>Новость от брокера Finmax</p>
+                                        <p>Уважаемые клиенты! Компания Finmax сообщает о прекращении...</p>
+                                    </div>
+                                    <div class="bl_news_item">
+                                        <a href="#">Сен. 4, 2018</a>
+                                        <p>Новость от брокера Finmax</p>
+                                        <p>Уважаемые клиенты! Компания Finmax сообщает о прекращении...</p>
+                                    </div>
+                                    <div class="bl_news_item">
+                                        <a href="#">Сен. 4, 2018</a>
+                                        <p>Новость от брокера Finmax</p>
+                                        <p>Уважаемые клиенты! Компания Finmax сообщает о прекращении...</p>
+                                    </div>
+                                    <div class="bl_news_item">
+                                        <a href="#">Сен. 4, 2018</a>
+                                        <p>Новость от брокера Finmax</p>
+                                        <p>Уважаемые клиенты! Компания Finmax сообщает о прекращении...</p>
+                                    </div>
+                                    <div class="bl_news_item">
+                                        <a href="#">Сен. 4, 2018</a>
+                                        <p>Новость от брокера Finmax</p>
+                                        <p>Уважаемые клиенты! Компания Finmax сообщает о прекращении...</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="bott_footer">
+            <div class="container">
+                <div class="wrap_bott_footer">
+                    <ul>
+                            <li><a href="#" class="active">Главная</a></li>
+                            <li><a href="#">Список компаний</a></li>
+                            <li><a href="#">Как это работает?</a></li>
+                            <li><a href="#">О сервисе</a></li>
+                            <li><a href="#">Партнерам</a></li>
+                            <li><a href="#">Контакты</a></li>
+                     </ul>
+                    
+                </div>
+            </div>
+        </div>
+        
+        <footer class="footer">
+        	<div class="container">
+            	<div class="wrap_footer">
+            	    <div class="left_footer">
+            	        <p>ООО «Альпари-Брокер». Имеет лицензии на брокерскую деятельность, деятельность по осуществлению доверительного управления и деятельность дилера в соответствии с Федеральным законом №39-ФЗ «О рынке ценных бумаг».<br> Лицензии ФСФР России № 016-12915-100000, № 016-12917-010000 и № 016-12919-001000. Является членом СРО НАУФОР, свидетельство № 000774. Входит в реестр лицензированных дилеров в разделе профессиональных участников рынка ценных бумаг на официальном сайте Центрального Банка Российской Федерации.</p>
+            	        <p>Компания «Альпари-Брокер» предоставляет клиентам доступ к торгам на валютном рынке ОАО «Московская Биржа» — одном из самых капитализированных и высоколиквидных сегментов российского финансового рынка.</p>
+            	        <p>Уведомление о рисках: начиная работать на валютных рынках, убедитесь, что вы осознаете риски, с которыми сопряжена торговля с использованием кредитного плеча, и что вы имеете достаточный уровень подготовки.<br> Доходы, полученные в прошлом, не являются гарантией получения доходов в будущем.</p>
+            	        
+            	    </div>
+            	    <div class="right_footer">
+            	        <p class="telegram"> live:help_2197</p>
+            	        <p class="skype"> live:help_2197</p>
+            	        <p class="caps">Paldiski mnt 26-9, North Tallinn district Tallinn city, Harju county, 10149</p>
+            	        <p class="mail">help@cloud-mining.io</p>
+            	        <div class="social">
+            	            <a href="#"><i class="fa fa-twitter"></i></a>
+            	            <a href="#"><i class="fa fa-vk"></i></a>
+            	            <a href="#"><i class="fa fa-facebook"></i></a>
+            	            <a href="#"><i class="fa fa-youtube-play"></i></a>
+            	            <a href="#"><i class="fa fa-instagram"></i></a>
+            	            <a href="#"><i class="fa fa-linkedin"></i></a>
+            	        </div>
+            	    </div>
+            	</div>
+            	<p class="copyright">© Allrebates, 2018. All rights reserved.</p>
+            </div>
+        </footer>
+    </div> 
+
+<script src="libs/datepicker.min.js"></script> 
+<script src="libs/jquery-mTab-min.js"></script> 
+<script src="libs/jquery.fancybox.min.js"></script> 
+<script src="libs/jquery.formstyler.js"></script>  
+<script src="libs/jquery.maskedinput-1.2.2.js"></script>
+<script src="libs/swiper.js"></script>
+<script src="js/common.js"></script>                                         
+</body>
+</html>

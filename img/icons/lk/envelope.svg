@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="10" height="9" viewBox="0 0 10 9">
+    <defs>
+        <path id="b" d="M26.062 34c.26 0 .482.091.665.273a.904.904 0 0 1 .273.664v5.625c0 .26-.091.482-.273.665a.904.904 0 0 1-.665.273h-8.125a.904.904 0 0 1-.664-.273.904.904 0 0 1-.273-.665v-5.625c0-.26.091-.481.273-.664a.904.904 0 0 1 .664-.273h8.125zm0 .937h-8.125v.801c.456.365 1.335 1.055 2.637 2.07l.176.157c.26.221.469.377.625.469.247.169.456.253.625.253.17 0 .378-.084.625-.253.156-.092.365-.248.625-.47l.176-.155a113.783 113.783 0 0 0 2.636-2.07v-.802zm-8.125 5.625h8.125V36.93l-2.265 1.797a5.664 5.664 0 0 1-.8.585c-.352.209-.685.313-.997.313-.313 0-.651-.104-1.016-.313a7.717 7.717 0 0 1-.8-.585l-2.247-1.797v3.632z"/>
+        <filter id="a" width="110%" height="126.7%" x="-5%" y="-6.7%" filterUnits="objectBoundingBox">
+            <feOffset dy="1" in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feColorMatrix in="shadowOffsetOuter1" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.612460371 0"/>
+        </filter>
+    </defs>
+    <g fill="none" fill-rule="evenodd" transform="translate(-17 -34)">
+        <use fill="#000" filter="url(#a)" xlink:href="#b"/>
+        <use fill="#51A903" xlink:href="#b"/>
+    </g>
+</svg>
